@@ -1,4 +1,4 @@
-## NestJS monorepo basic example
+## A simple NestJS monorepo example
 <div>
 <a
     href="http://nestjs.com/"
@@ -21,7 +21,7 @@
 
 ## Description
 
-This repository shows a basic [Nest](https://github.com/nestjs/nest) monorepo project to create REST and GraphQL APIs that shares the same business logic.
+This repository shows a simple [NestJS](https://github.com/nestjs/nest) monorepo project to create REST and GraphQL APIs that shares the same business logic.
 
 ## Requirements
 - Docker
