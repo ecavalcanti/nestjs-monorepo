@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  pg:
+    image: postgres:9.6-alpine
+    container_name: pg
+    restart: always
+    environment:
+      - POSTGRES_DB=monorepo
+      - POSTGRES_USER=monorepo
+      - POSTGRES_PASSWORD=monorepo
+    ports:
+      - 5432:5432

@@ -1,0 +1,57 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/graphql/src",
+  "monorepo": true,
+  "root": "apps/graphql",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/graphql/tsconfig.app.json"
+  },
+  "projects": {
+    "graphql": {
+      "type": "application",
+      "root": "apps/graphql",
+      "entryFile": "main",
+      "sourceRoot": "apps/graphql/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/graphql/tsconfig.app.json"
+      }
+    },
+    "rest": {
+      "type": "application",
+      "root": "apps/rest",
+      "entryFile": "main",
+      "sourceRoot": "apps/rest/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/rest/tsconfig.app.json"
+      }
+    },
+    "users": {
+      "type": "library",
+      "root": "libs/users",
+      "entryFile": "index",
+      "sourceRoot": "libs/users/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/users/tsconfig.lib.json"
+      }
+    },
+    "config": {
+      "type": "library",
+      "root": "libs/config",
+      "entryFile": "index",
+      "sourceRoot": "libs/config/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/config/tsconfig.lib.json"
+      }
+    },
+    "database": {
+      "type": "library",
+      "root": "libs/database",
+      "entryFile": "index",
+      "sourceRoot": "libs/database/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/database/tsconfig.lib.json"
+      }
+    }
+  }
+}
