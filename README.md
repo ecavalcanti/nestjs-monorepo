@@ -21,7 +21,7 @@
 
 ## Description
 
-This repository shows a simple [NestJS](https://github.com/nestjs/nest) monorepo project to create REST and GraphQL APIs that shares the same business logic.
+This repository shows a simple [NestJS](https://github.com/nestjs/nest) monorepo project to create REST and GraphQL APIs that share the same business logic.
 
 ## Requirements
 - Docker
