@@ -1,4 +1,4 @@
-## NestJS basic monorepo example
+## NestJS monorepo basic example
 <div>
 <a
     href="http://nestjs.com/"
@@ -47,7 +47,7 @@ $ SERVER_PORT=4000 npm run start graphql
 
 ## Test
 
-In order to test applications you can use Swagger and GraphQL Playground (thanks NestJS integrations) with the following address in the browser.
+In order to test applications, you can use Swagger and GraphQL Playground (thanks NestJS integrations) with the following address in the browser.
 
 [http://localhost:3000/api](http://localhost:3000/api)
 
